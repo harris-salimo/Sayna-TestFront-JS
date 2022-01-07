@@ -1,0 +1,28 @@
+{
+  "name": "api_back",
+  "version": "1.0.0",
+  "description": "Test d'évaluation de compétences chez SAYNA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harris-salimo/SAYNA-TestFront-JS.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Harris Maïla Salimo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harris-salimo/SAYNA-TestFront-JS/issues"
+  },
+  "homepage": "https://github.com/harris-salimo/SAYNA-TestFront-JS#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
