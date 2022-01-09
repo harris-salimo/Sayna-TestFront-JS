@@ -2,15 +2,15 @@
 
 Un simple API pour un test
 
-## Technologie
-- _dotenv_ (v10.0.0): pour stocker les variables d'environnements
-- _express_ (v4.17.2): pour créer l'api avec `node.js`
-- _joi_ (v17.5.0): pour valider les données
-- _passport_ (v0.5.2): pour controller l'accès aux ressources fournies par l'api
-- _passport-http-bearer_ (v1.0.1): pour authentifier et attribuer des tokens aux utilisateurs
-- _pg_ (v8.7.1): pour accéder au base de données
-- _pg-hstore_ (v2.3.4): même que `pg` (Note: `pg` et `pg-hstore` sont utiles pour `sequelize`)
-- _sequelize_ (v6.12.5): ORM pour manipuler les données
+## Technologies
+- *dotenv* (_v10.0.0_): pour stocker les variables d'environnements
+- *express* (_v4.17.2_): pour créer l'api avec `node.js`
+- *joi* (_v17.5.0_): pour valider les données
+- *passport* (_v0.5.2_): pour controller l'accès aux ressources fournies par l'api
+- *passport-http-bearer* (_v1.0.1_): pour authentifier et attribuer des tokens aux utilisateurs
+- *pg* (_v8.7.1_): pour accéder au base de données
+- *pg-hstore* (_v2.3.4_): même que `pg` (Note: `pg` et `pg-hstore` sont utiles pour `sequelize`)
+- *sequelize* (_v6.12.5_): ORM pour manipuler les données
 
 ## Configuration
 Pour créer la base de données, utiliser l'outil cli de `sequelize` en lançant la commande suivante:
