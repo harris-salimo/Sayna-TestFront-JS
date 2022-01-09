@@ -12,6 +12,17 @@ Un simple API pour un test
 - _pg-hstore_ (v2.3.4): même que `pg` (Note: `pg` et `pg-hstore` sont utiles pour `sequelize`)
 - _sequelize_ (v6.12.5): ORM pour manipuler les données
 
+## Configuration
+Pour créer la base de données, utiliser l'outil cli de `sequelize` en lançant la commande suivante:
+```
+$ sequelize db:create
+```
+Ensuite lancer la commande qui suit pour avoir les tables
+```
+$ sequelize db:migrate
+```
+#### Note: la base de données utilisée dans cet api est _PostgreSQL_
+
 ## Installation
 Créer un dossier pour mettre l'application et naviguer dans le dossier
 ```shell
@@ -26,7 +37,8 @@ Installer les dépendances à l'aide de `npm`
 ```shell
 $ npm install
 ```
-Lancer l'application en tapant ce commande dans votre terminal
+## Lancement
+Pour lancer l'application, taper cette commande dans votre terminal
 ```shell
 $ node app.js
 ```
